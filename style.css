@@ -1,0 +1,129 @@
+
+* {
+   margin:0;
+   padding:0; 
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+   }
+body {
+   min-height:100vh;
+    background-image:url('back.jpg');
+     background-size:cover;
+      background-position:center; 
+      color:white;
+     }
+
+span { 
+  color:#f6e5c7; 
+}
+.div1 { font-size:50px;
+   text-align:center;
+    margin-top:50px; 
+    color:#F9C66A; 
+    font-weight:bold;
+   }
+.part {
+   font-size:18px; 
+   color:#f4e5cc;
+    margin-top:20px;
+   }
+
+.section-wrapper { 
+  max-width:600px;
+   margin:50px auto;
+    display:flex; 
+    flex-direction:column;
+     gap:20px; 
+    }
+
+.section-card {
+  background-color: rgba(0,0,0,0.75);
+  border-radius:12px;
+  padding:25px;
+  cursor:pointer;
+  box-shadow: 0 0 15px rgba(255,165,0,0.4);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align:center;
+}
+.section-card:hover { 
+  transform:scale(1.03); 
+  box-shadow:0 0 25px rgba(255,165,0,0.6);
+}
+.section-card .icon { 
+  font-size:2em;
+   margin-bottom:10px; 
+  }
+.section-card h3 { 
+  color:orange;
+   margin-bottom:8px;
+   }
+.section-card p { 
+  font-size:0.9em;
+   color:#f4e5cc;
+   }
+
+.page
+ { display:none;
+   max-width:950px; 
+   margin:30px auto;
+    padding:20px; 
+    background-color:rgba(0,0,0,0.85); 
+    border-radius:12px; 
+  }
+
+.cards { 
+  display:flex; 
+  gap:25px; 
+  justify-content:center; 
+  flex-wrap:wrap; 
+}
+
+.card {
+  background-color: rgba(255,165,0,0.15);
+  padding:18px;
+  width:220px;
+  border-radius:12px;
+  text-align:center;
+  box-shadow:0 0 10px rgba(255,165,0,0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor:pointer;
+  position:relative;
+}
+.card:hover { 
+  transform:scale(1.05);
+   box-shadow:0 0 18px rgba(255,165,0,0.6);
+   }
+
+.card h4 { 
+  margin-bottom:10px; 
+  color:orange; 
+  font-size:1.1em; 
+}
+.card p { 
+  margin-bottom:10px;
+   color:#f4e5cc;
+    font-size:0.9em;
+     line-height:1.3em; 
+    }
+
+.card .genre-content {
+  display:none;
+  margin-top:10px;
+  padding:12px;
+  background-color: rgba(0,0,0,0.9);
+  border-radius:12px;
+  box-shadow: 0 0 15px rgba(255,165,0,0.5);
+  color:#f4e5cc;
+  line-height:1.4em;
+  font-size:0.95em;
+  text-align:justify;
+}
+.tags span {
+  background-color:orange;
+  color:black;
+  padding:3px 7px;
+  margin:3px;
+  border-radius:5px;
+  font-size:0.7em;
+  cursor:pointer;
+}
