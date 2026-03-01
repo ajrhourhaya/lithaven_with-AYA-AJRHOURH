@@ -127,3 +127,17 @@ span {
   font-size:0.7em;
   cursor:pointer;
 }
+#about {
+  text-align: center;
+  margin: 60px 0;
+  color:#f4e5cc ;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+section {
+  transition: 0.4s ease;
+}
+
+
